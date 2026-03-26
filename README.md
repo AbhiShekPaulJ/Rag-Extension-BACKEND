@@ -39,32 +39,4 @@ The RAG Backend Server is designed to serve as the backend for the RAG (Retrieve
    ```
    The server will start running on `http://localhost:3000`.
 
-## API Endpoints
-### 1. User Authentication
-- **POST** `/api/auth/login`
-  - Login a user.
-  - Request body: `{
-    "username": "user",
-    "password": "pass"
-  }`
-
-- **POST** `/api/auth/register`
-  - Register a new user.
-  - Request body: `{
-    "username": "newuser",
-    "password": "newpass"
-  }`
-
-### 2. Data Retrieval
-- **GET** `/api/data`
-  - Fetch all data entries.
-
-### 3. Data Updates
-- **PUT** `/api/data/:id`
-  - Update data entry.
-  - Request body: `{
-    "field": "value"
-  }`
-
-## Conclusion
-The RAG Backend Server is an essential component of the RAG application, providing all necessary backend functionalities. Follow the setup instructions to get started with the development and contribute to enhancing the server functionalities.
+contribute to enhancing the server functionalities.
