@@ -28,9 +28,9 @@ The RAG Backend Server is designed to serve as the backend for the RAG (Retrieve
 3. **Set Environment Variables**
    - Create a `.env` file at the root of the project and configure the following variables:
      ```
-     DATABASE_URL=your_database_url
-     JWT_SECRET=your_jwt_secret
-     NODE_ENV=development
+     AZURE_OPENAI_KEY=KEY
+     PORT=PORT_NUMBER
+     CHROME_EXTENSION_ID=your-extention-id
      ```
 
 4. **Start the Server**
